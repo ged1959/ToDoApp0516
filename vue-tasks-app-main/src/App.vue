@@ -55,6 +55,7 @@ function setFilter(value: TaskFilter) {
 <template>
   <main>
     <h1>{{ message }}</h1>
+    <h2>TEST APP!</h2>
     <TaskForm @add-task="addTask" />
     <h3 v-if="!tasks.length">Add a task to get started.</h3>
     <h3 v-else>{{ totalDone }} / {{ tasks.length }} tasks completed</h3>
